@@ -40,6 +40,16 @@
 				font-family: 'Rubik', sans-serif; /* from 'https://fonts.google.com/' */
 				color: #1D2731;
 			}
+			.top-bar {
+				background: gray;
+				height: 1.5rem;
+				padding: 0 0 ;
+			}
+			.top-bar a {
+				color: white;
+				text-decoration: none;
+				font-size: 1rem;
+			}
 			.navbar {
 				/* colors: { #1D2731, #0B3C5D, #328CC1, #D9B310 } */
 				background-color: indigo; /* #1D2731; */
@@ -48,7 +58,15 @@
 		</style>
 	</head>
 	<body>
-		<!-- 1st bootstrap section is a Navigational bar -->
+		<!-- 1st bootstrap section is a Top bar with contact phone number -->
+		<div class="top-bar">
+			<div class="container">
+				<div class="col-12 text-right">
+					<p><a href="tel:+5521976808876">Atendimento +55-21-97680-8876</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- 2nd bootstrap section is a Navigational bar -->
 		<!-- Ref.: https://getbootstrap.com/docs/5.1/components/navbar/ -->
 		<!-- Navbars require a wrapping .navbar with .navbar-expand{-sm|-md|-lg|-xl|-xxl} for responsive collapsing and color scheme classes. -->
 		<!-- Navbars and their contents are fluid by default. Change the container to limit their horizontal width in different ways. -->
