@@ -113,9 +113,10 @@
 	</head>
 	<body>
 		<!-- 1st bootstrap section is a Top bar with contact phone number -->
-		<div class="top-bar">
+		<div class="top-bar" id="home">
 			<div class="container-fluid">
 				<div class="col-12 d-flex justify-content-end">
+					<!-- TODO: Deveria aqui ter a seleção do idioma -->
 					<p><a href="tel:+5521976808876">Atendimento +55-21-97680-8876</a></p>
 				</div>
 			</div>
@@ -140,12 +141,12 @@
 				<!-- Expanded Menu -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<div class="navbar-nav">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-						<a class="nav-link" href="#">About</a>
-						<a class="nav-link" href="#">Services</a>
-						<a class="nav-link" href="#">Testimonials</a>
-						<a class="nav-link" href="#">Contact</a>
-						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+						<a class="nav-link active" aria-current="page" href="#home">Home</a>
+						<a class="nav-link" href="#sobre">Empresa</a>
+						<a class="nav-link" href="#marcas">Marcas</a>
+						<a class="nav-link" href="#noticias">Notícias</a>
+						<a class="nav-link" href="#promos">Promoções</a>
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Atendimento</a>
 					</div>
 				</div>
 			</div>
@@ -193,7 +194,7 @@
 		</div>
 
 		<!-- 4th bootstrap section is a Heading & Three Columns section -->
-		<div class="container-fluid col-8 text-center my-2">
+		<div class="container-fluid col-8 text-center my-2" id="sobre">
 			<!-- Ref.: https://www.sebrae.com.br/Sebrae/Portal%20Sebrae/Anexos/ME_Missao-Visao-Valores.PDF -->
 			<h1 class="text-dark pt-4">Missão, Visão e Valores</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a vehicula sem, sed fringilla metus. Pellentesque vel lectus ultrices, pretium ipsum ac, accumsan quam. Nam eget tristique turpis, nec facilisis nisi. Curabitur feugiat diam luctus rhoncus cursus. Nam erat leo, lacinia sed imperdiet vitae, mollis et tortor. Aliquam mattis felis quis bibendum blandit. Sed et velit ex. Sed scelerisque magna at nunc pulvinar, ac elementum diam tempus. Praesent laoreet vitae lacus id tincidunt. Cras luctus placerat odio eu condimentum. Vivamus quam eros, condimentum id odio a, dapibus facilisis enim. Praesent ornare, nisi eget hendrerit efficitur, lorem ante lobortis eros, ut.</p>
@@ -220,12 +221,44 @@
 			</div>
 		</div>
 
-		<!-- 5th bootstrap section is a Fixed Backgound Image section -->
+		<!-- 5th bootstrap section is a 'Marcas' (Brands) section -->
+		<div class="container-fluid col-8 text-center mt-2" id="marcas">
+			<h1 class="text-dark pt-4">Marcas</h1>
+			<div class="card" style="width: 18rem;">
+				<img src="img/a.png" class="card-img-top" alt="Memo Shoes Brasil">
+				<div class="card-body">
+					<h5 class="card-title">Memo Shoes Brasil</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="https://www.memo-shoes.com.br/" target="memo" class="btn btn-primary">Visitar o Website</a>
+				</div>
+			</div>
+		</div>
 
-		<!-- 6th bootstrap section is a Two Columns & Jumbotron sections -->
+		<!-- 6th bootstrap section is a 'Notícias' (News) section -->
+		<div class="container-fluid col-8 text-center mt-2" id="noticias">
+			<h1 class="text-dark pt-4">Notícias</h1>
+		</div>
 
-		<!-- 7th bootstrap section is the Footer section -->
+		<!-- 7th bootstrap section is a 'Promoções' (Promotions) section -->
+		<!-- https://www.gov.br/economia/pt-br/assuntos/noticias/2020/julho/secap-esclarece-procedimentos-para-distribuicao-de-premios-por-organizacoes-da-sociedade-civil -->
+		<div class="container-fluid col-8 text-center mt-2" id="promos">
+			<h1 class="text-dark pt-4">Promoções</h1>
+		</div>
+
+		<!-- 8th bootstrap section is a Fixed Backgound Image section -->
+
+		<!-- 9th bootstrap section is a Two Columns & Jumbotron sections -->
+
+		<!-- 10th bootstrap section is the Progress Bar of the website creation -->
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+		</div>
+
+		<!-- 11th bootstrap section is the Footer section -->
 		<footer>
+			<!-- Copyright -->
+			<!-- Formas de Pagamento -->
+			<!-- Redes Sociais -->
 			<div class="container">
 				<div class="text-light text-center py-4 justify-content-center">
 					<a class="fab fa-android px-2" href="#"></a>
@@ -236,6 +269,7 @@
 					<a class="fab fa-instagram px-2" href="#"></a>
 					<a class="fab fa-linkedin px-2" href="#"></a>
 					<a class="fab fa-pinterest px-2" href="#"></a>
+					<a class="fab fa-spotify px-2" href="#"></a>
 					<a class="fab fa-telegram px-2" href="#"></a>
 					<a class="fab fa-tiktok px-2" href="#"></a>
 					<a class="fab fa-twitter px-2" href="#"></a>
@@ -251,6 +285,9 @@
 			</div>
 		</footer>
 
-		<!-- 8th bootstrap section is the Socket HTML section -->
+		<!-- 12th bootstrap section is the Socket HTML section -->
+
+		<!-- 13th bootstrap section is the Cookies and LGPD section -->
+
 	</body>
 </html>
