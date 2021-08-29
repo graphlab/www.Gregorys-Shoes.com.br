@@ -222,11 +222,11 @@
 		</div>
 
 		<!-- 5th bootstrap section is a 'Marcas' (Brands) section -->
-		<div class="container-fluid col-8 text-center mt-2" id="marcas">
-			<h1 class="text-dark pt-4">Marcas</h1>
+		<div class="container-fluid col-8 mt-2" id="marcas">
+			<h1 class="text-dark text-center pt-4">Marcas</h1>
 			<div class="card" style="width: 18rem;">
-				<img src="img/a.png" class="card-img-top" alt="Memo Shoes Brasil">
 				<div class="card-body">
+					<img src="img/a.png" class="card-img-top pb-3" alt="Memo Shoes Brasil">
 					<h5 class="card-title">Memo Shoes Brasil</h5>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					<a href="https://www.memo-shoes.com.br/" target="memo" class="btn btn-primary">Visitar o Website</a>
@@ -235,27 +235,83 @@
 		</div>
 
 		<!-- 6th bootstrap section is a 'Notícias' (News) section -->
-		<div class="container-fluid col-8 text-center mt-2" id="noticias">
-			<h1 class="text-dark pt-4">Notícias</h1>
+		<div class="container-fluid col-8 mt-2" id="noticias">
+			<h1 class="text-dark text-center pt-4">Notícias</h1>
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+				<!-- Notícia mais recente -->
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingOne">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+						Accordion Item #1
+						</button>
+					</h2>
+					<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+						</div>
+					</div>
+				</div>
+				<!-- Notícia anterior -->
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+						Accordion Item #2
+						</button>
+					</h2>
+					<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.
+						</div>
+					</div>
+				</div>
+				<!-- Notícia anterior -->
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+						Accordion Item #3
+						</button>
+					</h2>
+					<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- 7th bootstrap section is a 'Promoções' (Promotions) section -->
 		<!-- https://www.gov.br/economia/pt-br/assuntos/noticias/2020/julho/secap-esclarece-procedimentos-para-distribuicao-de-premios-por-organizacoes-da-sociedade-civil -->
-		<div class="container-fluid col-8 text-center mt-2" id="promos">
-			<h1 class="text-dark pt-4">Promoções</h1>
+		<div class="container-fluid col-8 mt-2" id="promos">
+			<h1 class="text-dark text-center pt-4 ">Promoções</h1>
+			<div class="card">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tincidunt neque. Etiam interdum imperdiet fermentum. Vestibulum vitae mi diam. In hac habitasse platea dictumst.<br>
+					<strong>Gerado 1 parágrafo, 25 palavras, 178 bytes</strong> de Lorem Ipsum
+				</div>
+			</div>
+			<br>
+			<div class="card">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor est, suscipit a pellentesque vitae, sodales ac nisl. Fusce vitae augue a est molestie pharetra ut vel enim. Morbi convallis tincidunt.<br>
+					<strong>Gerado 1 parágrafo, 31 palavras, 200 bytes</strong> de Lorem Ipsum
+				</div>
+			</div>
+			<br>
+			<div class="card">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor sagittis venenatis. Ut pellentesque lacinia eros, vitae sagittis erat scelerisque non. Mauris condimentum neque et vehicula mollis. Proin condimentum odio at libero tempor placerat. Duis non lectus lobortis sapien interdum iaculis. Suspendisse sit amet lobortis risus. Curabitur molestie, justo eget consectetur auctor, lectus diam tempus elit, vitae molestie nibh arcu eu arcu. Nulla non gravida purus, nec placerat metus. Ut luctus vulputate nibh pharetra rhoncus. Nulla et arcu vitae quam facilisis rhoncus nec varius metus. Sed tincidunt gravida semper. Nam quis blandit dui, sed consectetur sapien. In mollis massa ac.<br>
+					<strong>Gerado 1 parágrafo, 100 palavras, 692 bytes</strong> de Lorem Ipsum
+				</div>
+			</div>
 		</div>
 
 		<!-- 8th bootstrap section is a Fixed Backgound Image section -->
 
 		<!-- 9th bootstrap section is a Two Columns & Jumbotron sections -->
 
-		<!-- 10th bootstrap section is the Progress Bar of the website creation -->
-		<div class="progress">
-			<div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-		</div>
-
-		<!-- 11th bootstrap section is the Footer section -->
-		<footer>
+		<!-- 10th bootstrap section is the Footer section -->
+		<footer class="mt-4">
 			<!-- Copyright -->
 			<!-- Formas de Pagamento -->
 			<!-- Redes Sociais -->
@@ -285,9 +341,9 @@
 			</div>
 		</footer>
 
-		<!-- 12th bootstrap section is the Socket HTML section -->
+		<!-- 11th bootstrap section is the Socket HTML section -->
 
-		<!-- 13th bootstrap section is the Cookies and LGPD section -->
+		<!-- 12th bootstrap section is the Cookies and LGPD section -->
 
 	</body>
 </html>
